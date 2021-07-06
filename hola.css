@@ -1,0 +1,23 @@
+
+h1 {
+	text-align: center;
+	margin-left: 5cm;
+	font-family: arial;
+	font-size: 26pt;
+	color: white;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	background-color: #002233;
+	padding: 10px;
+	margin-left: 2cm;
+	margin-right: 2cm;
+}
+.grid-container > div {
+	background-color: white;
+	text-align: center;
+	padding: 10px 0px;	
+}
